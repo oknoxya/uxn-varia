@@ -1,8 +1,8 @@
 ( usage: just include the file using ~varvara.tal )
 
-( symbolic names for varvara devices and ports )
-( the names are taken from xxiivv's wiki page  )
-( https://wiki.xxiivv.com/site/varvara.html    )
+( symbolic names for varvara devices and ports    )
+( the names are taken from xxiivv's wiki page     )
+( https://wiki.xxiivv.com/site/varvara.html       )
 
 |00 @System     [ &halt $2 &expansion $2 &title $2 &metadata $2 &red $2 &green $2 &blue $2 &debug $1 &state $1 ] 
 |10 @Console    [ &vector $2 &read $1 &pad $5 &write $1 &error $1                                              ] 
